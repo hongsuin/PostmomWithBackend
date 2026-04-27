@@ -5,6 +5,7 @@ import { getOAuthRedirectUrl, getSupabaseBrowserClient } from '../lib/supabase';
 import { USER_TYPE_META } from '../types/user';
 import type { UserType } from '../types/user';
 
+//백엔드 서버로 바꿀 때, supabase 관련 부분은 API 호출로 변경 필요 (예: axios.post('/api/signup', { ... }))
 // ── 유형 선택 카드 목록 ──────────────────────────────────────────
 const TYPE_LIST: UserType[] = ['student', 'parent', 'academy'];
 
